@@ -363,6 +363,8 @@ public class Test {
 		unlam.registrarMateria(pw1);
 		unlam.registrarMateria(ig);
 		
+		String textoPruba = "Hola mundo";
+		
 		unlam.asignarCorrelativaAUnaMateria(codigoPw1, codigoPb1);
 		unlam.asignarCorrelativaAUnaMateria(codigoPw1, codigoIg);
 		
