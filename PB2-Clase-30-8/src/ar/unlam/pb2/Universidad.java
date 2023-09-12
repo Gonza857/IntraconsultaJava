@@ -14,7 +14,7 @@ public class Universidad {
 	}
 
 	public void calificar(Integer dniAlumno, Integer codMateria, Integer nota) {
-		String pruebaGit = "nueva caja";
+		String pruebaGit = "nueva jujuujuj";
 		Alumno alumnoBuscado = buscarAlumno(dniAlumno);
 		if (alumnoBuscado != null) {
 			Materia buscarMateria = alumnoBuscado.buscarMateriaDeAlumno(codMateria);
